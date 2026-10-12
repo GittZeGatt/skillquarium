@@ -92,7 +92,7 @@ created: 2026-07-21
 - [msbuild-server](../notes/dotnet-development/msbuild-server.md) — Guide for using MSBuild Server to improve CLI build performance
 - [mtp-hot-reload](../notes/dotnet-development/mtp-hot-reload.md) — Set up or recover MTP hot reload for a long-lived console-host edit/re-run loop in a Microsoft Testing Platform project
 - [nuget-trusted-publishing](../notes/dotnet-development/nuget-trusted-publishing.md) — Set up NuGet trusted publishing (OIDC) on a GitHub Actions repo — replaces long-lived API keys with short-lived tokens
-- [optimizing-ef-core-queries](../notes/dotnet-development/optimizing-ef-core-queries.md) — Optimize and improve the performance of slow Entity Framework Core (EF Core) queries: make them generate less SQL, make fewer database round-trips, and return results faster
+- [optimizing-ef-core-queries](../notes/dotnet-development/optimizing-ef-core-queries.md) — Review and optimize application data access that uses Entity Framework Core (EF Core)
 - [plan-ui-change](../notes/dotnet-development/plan-ui-change.md) — Plan complex Blazor UI features by decomposing them into focused components
 - [platform-detection](../notes/dotnet-development/platform-detection.md) — Identify a .NET project's test platform, framework, command mode, and SDK-style vs classic project system
 - [property-patterns](../notes/dotnet-development/property-patterns.md) — Diagnose and fix concrete MSBuild property defects in projects and existing shared-file hierarchies

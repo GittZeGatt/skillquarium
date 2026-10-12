@@ -2898,9 +2898,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/dotnet/skills.git",
       "skillPath": "plugins/dotnet-test/skills/find-untested-sources/SKILL.md",
-      "skillFolderHash": "3d1451cc38e5a53b6c7030d2b626bc59a221347f",
+      "skillFolderHash": "946d6b8401d77eba767f8ccc0ab60fb04932362d",
       "installedAt": "2026-07-21T05:32:32.220Z",
-      "updatedAt": "2026-10-10T12:48:19.588Z"
+      "updatedAt": "2026-10-12T15:19:45.758Z"
     },
     "generate-testability-wrappers": {
       "source": "dotnet/skills",
@@ -3105,9 +3105,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/dotnet/skills.git",
       "skillPath": "plugins/dotnet-data/skills/optimizing-ef-core-queries/SKILL.md",
-      "skillFolderHash": "383e204cd6d3fd44730dc1ef86c014f930270b89",
+      "skillFolderHash": "272b0f0a299e3372e2a8e7652659c6db0a339c0c",
       "installedAt": "2026-07-21T05:32:59.973Z",
-      "updatedAt": "2026-10-10T12:48:40.608Z"
+      "updatedAt": "2026-10-12T15:19:47.437Z"
     },
     "msbuild-antipatterns": {
       "source": "dotnet/skills",
@@ -8802,9 +8802,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/max-sixty/worktrunk.git",
       "skillPath": "skills/worktrunk/SKILL.md",
-      "skillFolderHash": "d08c83d4fb25c650c0d00988ced9ad1e6eb6dfcd",
+      "skillFolderHash": "f512095a0fc6c8ae2c220321514a0766fcae62e7",
       "installedAt": "2026-08-13T09:15:09.693Z",
-      "updatedAt": "2026-10-11T12:47:30.650Z"
+      "updatedAt": "2026-10-12T15:19:51.007Z"
     },
     "ast-grep": {
       "source": "ast-grep/agent-skill",
@@ -8829,9 +8829,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/github/gh-aw.git",
       "skillPath": ".github/skills/agentic-workflows/SKILL.md",
-      "skillFolderHash": "58d858d62212f716fe4acd0b953e29e9a21675f2",
+      "skillFolderHash": "8a99da16a2ca75547b836563dbd9028dfc17809d",
       "installedAt": "2026-08-17T03:21:27.911Z",
-      "updatedAt": "2026-10-11T12:47:42.565Z"
+      "updatedAt": "2026-10-12T15:20:03.145Z"
     },
     "reverse-skill-router": {
       "source": "zhaoxuya520/reverse-skill",

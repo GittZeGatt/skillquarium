@@ -4,29 +4,29 @@
   "skills": 2148,
   "expert_profiles": 503,
   "nodes": 2221,
-  "edges": 15685,
+  "edges": 15683,
   "generic_names_blocked": 32,
   "tier1_edges": 4678,
   "tier2_edges": 720,
-  "alias_edges": 4451,
+  "alias_edges": 4450,
   "discipline_edges": 599,
   "ambiguous_aliases": 34,
   "artifact_edges": 519,
   "asserted_edges": 0,
   "recipes": 7,
   "observations": 0,
-  "mean_skill_degree": 5.73,
+  "mean_skill_degree": 5.72,
   "median_skill_degree": 4,
   "orphan_count": 124,
   "orphan_rate": 0.0577,
   "by_provenance": {
-   "EXTRACTED": 14899,
+   "EXTRACTED": 14897,
    "ASSERTED": 668,
    "INFERRED": 118
   },
   "by_relation": {
    "in_domain": 2148,
-   "references": 12232,
+   "references": 12230,
    "in_discipline": 599,
    "touches": 519,
    "has_step": 69,
@@ -20845,7 +20845,7 @@
    "id": "optimizing-ef-core-queries",
    "type": "Skill",
    "label": "optimizing-ef-core-queries",
-   "description": "Optimize and improve the performance of slow Entity Framework Core (EF Core) queries: make them generate less SQL, make fewer database round-trips, and return results faster. Use whenever an EF Core or DbContext query or data-access path is slow or should be made faster — whether or not EF Core owns the database schema. For EF Core, not Dapper or raw ADO.NET.",
+   "description": "Review and optimize application data access that uses Entity Framework Core (EF Core). Use for EF Core performance and correctness reviews of services, repositories, imports, and background jobs: slow or memory-heavy queries, excessive round-trips, hidden SaveChanges, premature materialization, dynamic query construction, result-graph tracking, bulk writes, DbContext lifetime or overlapping operations, search semantics, paging, raw SQL, and model/index coverage. Use whether or not EF Core owns the schema. For EF Core, not Dapper or raw ADO.NET.",
    "source": "skills/optimizing-ef-core-queries/SKILL.md",
    "aliases": [
     "optimizing ef core queries"
@@ -64072,15 +64072,6 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "curated alias of design-md-library appears in moody-s-peer-analysis/SKILL.md",
-   "status": "accepted"
-  },
-  {
-   "src": "design-md-library",
-   "rel": "references",
-   "dst": "optimizing-ef-core-queries",
-   "weight": 1,
-   "provenance": "EXTRACTED",
-   "justification": "curated alias of design-md-library appears in optimizing-ef-core-queries/SKILL.md",
    "status": "accepted"
   },
   {
@@ -117460,15 +117451,6 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "domain from vault/notes layout",
-   "status": "accepted"
-  },
-  {
-   "src": "optimizing-ef-core-queries",
-   "rel": "references",
-   "dst": "design-md-library",
-   "weight": 1,
-   "provenance": "EXTRACTED",
-   "justification": "curated alias of design-md-library appears in optimizing-ef-core-queries/SKILL.md",
    "status": "accepted"
   },
   {
