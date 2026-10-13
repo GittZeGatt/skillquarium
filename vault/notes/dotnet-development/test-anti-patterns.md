@@ -28,10 +28,10 @@ created: 2026-07-21
 - [crap-score](../../notes/dotnet-development/crap-score.md) — Calculates CRAP (Change Risk Anti-Patterns) for a named .NET method, class, or file
 - [dotnet-coverage-analysis](../../notes/dotnet-development/dotnet-coverage-analysis.md) — Project-wide code coverage and CRAP (Change Risk Anti-Patterns) score analysis for .NET projects
 - [exp-test-maintainability](../../notes/dotnet-development/exp-test-maintainability.md) — Detects duplicate boilerplate, copy-paste tests, and structural maintainability issues across .NET test suites
-- [grade-tests](../../notes/dotnet-development/grade-tests.md) — Grade a curated list of individual tests for readiness, A-F quality, and concrete improvements
+- [grade-tests](../../notes/dotnet-development/grade-tests.md) — Grade curated individual tests for readiness, A-F quality and improvements
 - [run-tests](../../notes/dotnet-development/run-tests.md) — Use before running .NET tests or answering with a test command or flags
 - [test-analysis-extensions](../../notes/dotnet-development/test-analysis-extensions.md) — Provides file paths to language-specific reference files for the test ANALYSIS skills (assertion-quality, test-anti-patterns, test-gap-analysis, test-smell-detection, test-tagging)
-- [test-gap-analysis](../../notes/dotnet-development/test-gap-analysis.md) — Pseudo-mutation analysis ONLY: answer whether tests would catch a bug if production code changed, which meaningful changes would still pass, or which caller-visible mutations existing...
+- [test-gap-analysis](../../notes/dotnet-development/test-gap-analysis.md) — Find caller-visible production changes existing tests would miss through pseudo-mutation analysis
 - [test-smell-detection](../../notes/dotnet-development/test-smell-detection.md) — Audits existing tests in any language using formal, research-backed test smell names and the testsmells.org 19-smell academic taxonomy
 - [test-tagging](../../notes/dotnet-development/test-tagging.md) — Classifies existing tests by standard traits and reports their distribution
 - [writing-mstest-tests](../../notes/dotnet-development/writing-mstest-tests.md) — Use when asked to fix, rewrite, update, improve, modernize, show corrected code for, or explain existing MSTest tests or MSTest-specific configuration

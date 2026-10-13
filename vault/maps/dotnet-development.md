@@ -59,7 +59,7 @@ created: 2026-07-21
 - [filter-syntax](../notes/dotnet-development/filter-syntax.md) — Reference-only filter syntax for VSTest and MTP with MSTest, NUnit, xUnit v3, and TUnit
 - [find-untested-sources](../notes/dotnet-development/find-untested-sources.md) — MANDATORY for static source-to-test pairing: find or list source files/modules without corresponding tests, or suggest test locations from repository structure
 - [generate-testability-wrappers](../notes/dotnet-development/generate-testability-wrappers.md) — DO NOT USE when the target already consumes an injected interface or built-in abstraction such as IFileSystem or TimeProvider, even if the request says "generate a wrapper"
-- [grade-tests](../notes/dotnet-development/grade-tests.md) — Grade a curated list of individual tests for readiness, A-F quality, and concrete improvements
+- [grade-tests](../notes/dotnet-development/grade-tests.md) — Grade curated individual tests for readiness, A-F quality and improvements
 - [including-generated-files](../notes/dotnet-development/including-generated-files.md) — Own MSBuild generated-artifact integration
 - [incremental-build](../notes/dotnet-development/incremental-build.md) — Guide for optimizing MSBuild incremental builds
 - [item-management](../notes/dotnet-development/item-management.md) — Own concrete MSBuild ItemGroup and item-expression questions
@@ -111,7 +111,7 @@ created: 2026-07-21
 - [template-validation](../notes/dotnet-development/template-validation.md) — Validates custom dotnet new templates for correctness before publishing
 - [test-analysis-extensions](../notes/dotnet-development/test-analysis-extensions.md) — Provides file paths to language-specific reference files for the test ANALYSIS skills (assertion-quality, test-anti-patterns, test-gap-analysis, test-smell-detection, test-tagging)
 - [test-anti-patterns](../notes/dotnet-development/test-anti-patterns.md) — Audit a test file or suite; produce a severity-ranked diagnostic report
-- [test-gap-analysis](../notes/dotnet-development/test-gap-analysis.md) — Pseudo-mutation analysis ONLY: answer whether tests would catch a bug if production code changed, which meaningful changes would still pass, or which caller-visible mutations existing...
+- [test-gap-analysis](../notes/dotnet-development/test-gap-analysis.md) — Find caller-visible production changes existing tests would miss through pseudo-mutation analysis
 - [test-smell-detection](../notes/dotnet-development/test-smell-detection.md) — Audits existing tests in any language using formal, research-backed test smell names and the testsmells.org 19-smell academic taxonomy
 - [test-tagging](../notes/dotnet-development/test-tagging.md) — Classifies existing tests by standard traits and reports their distribution
 - [thread-abort-migration](../notes/dotnet-development/thread-abort-migration.md) — Guides migration of .NET Framework Thread.Abort usage to cooperative cancellation in modern .NET

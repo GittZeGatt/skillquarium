@@ -94,5 +94,5 @@ created: 2026-06-13
 - [tempo](../notes/cloud-devops/tempo.md) — Stand up Grafana Tempo as a cost-efficient distributed-tracing backend that only needs object storage, and write TraceQL queries against it
 - [terraform](../notes/cloud-devops/terraform.md) — Terraform and OpenTofu infrastructure-as-code (IaC) — declare cloud/SaaS resources in HCL, manage state with remote backends and locking, author and consume modules, and run the...
 - [vllm-deploy-simple](../notes/cloud-devops/vllm-deploy-simple.md) — Quick install and deploy vLLM, start serving with a simple LLM, and test OpenAI API
-- [wandb-primary](../notes/cloud-devops/wandb-primary.md) — Primary W&B skill for broad or mixed Weights & Biases work: project overviews, W&B runs and artifacts, Weave traces and evaluations, Reports, and Launch workflows
+- [wandb-primary](../notes/cloud-devops/wandb-primary.md) — Primary W&B skill for broad or mixed Weights & Biases work: project overviews, W&B runs and artifacts, Weave traces and evaluations, Reports, Workspaces, Automations, Sweeps, Launch...
 - [wizard](../notes/cloud-devops/wizard.md) — Generate an interactive bash wizard that walks a human through steps only they can perform

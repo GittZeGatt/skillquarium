@@ -22,7 +22,7 @@ created: 2026-06-09
 
 - [crap-score](../../notes/dotnet-development/crap-score.md) — Calculates CRAP (Change Risk Anti-Patterns) for a named .NET method, class, or file
 - [test-anti-patterns](../../notes/dotnet-development/test-anti-patterns.md) — Audit a test file or suite; produce a severity-ranked diagnostic report
-- [test-gap-analysis](../../notes/dotnet-development/test-gap-analysis.md) — Pseudo-mutation analysis ONLY: answer whether tests would catch a bug if production code changed, which meaningful changes would still pass, or which caller-visible mutations existing...
+- [test-gap-analysis](../../notes/dotnet-development/test-gap-analysis.md) — Find caller-visible production changes existing tests would miss through pseudo-mutation analysis
 - [test-tagging](../../notes/dotnet-development/test-tagging.md) — Classifies existing tests by standard traits and reports their distribution
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%

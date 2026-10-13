@@ -2123,9 +2123,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/wandb/skills.git",
       "skillPath": "skills/wandb-primary/SKILL.md",
-      "skillFolderHash": "6f69def7778447dbff0ac362599d90b472954ba5",
+      "skillFolderHash": "1ea71c3299bdb562b3ea3aec1f55a97ab38724c4",
       "installedAt": "2026-06-25T13:10:54.224Z",
-      "updatedAt": "2026-08-10T04:45:46.257Z"
+      "updatedAt": "2026-10-13T14:09:22.715Z"
     },
     "airflow": {
       "source": "astronomer/agents",
@@ -2916,9 +2916,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/dotnet/skills.git",
       "skillPath": "plugins/dotnet-test/skills/grade-tests/SKILL.md",
-      "skillFolderHash": "d8eb5804f2ded12d8a634a86523074f2560df780",
+      "skillFolderHash": "3e1ddee6325049701c775ca7d19fbede04b2c419",
       "installedAt": "2026-07-21T05:32:32.222Z",
-      "updatedAt": "2026-10-10T12:48:22.804Z"
+      "updatedAt": "2026-10-13T14:09:25.642Z"
     },
     "fetch-and-send-data": {
       "source": "dotnet/skills",
@@ -3375,9 +3375,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/dotnet/skills.git",
       "skillPath": "plugins/dotnet-test/skills/test-gap-analysis/SKILL.md",
-      "skillFolderHash": "7a310f50e9f5eaa75fd0d4e0695c19f97af1b8d7",
+      "skillFolderHash": "94668f56e5b3ebd064ce3016740656bc4a6572f5",
       "installedAt": "2026-07-21T05:33:26.453Z",
-      "updatedAt": "2026-10-10T12:49:10.782Z"
+      "updatedAt": "2026-10-13T14:09:27.482Z"
     },
     "test-smell-detection": {
       "source": "dotnet/skills",
@@ -8802,9 +8802,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/max-sixty/worktrunk.git",
       "skillPath": "skills/worktrunk/SKILL.md",
-      "skillFolderHash": "f512095a0fc6c8ae2c220321514a0766fcae62e7",
+      "skillFolderHash": "732152aeecbaf17eb42e97720c676760a1069763",
       "installedAt": "2026-08-13T09:15:09.693Z",
-      "updatedAt": "2026-10-12T15:19:51.007Z"
+      "updatedAt": "2026-10-13T14:09:34.567Z"
     },
     "ast-grep": {
       "source": "ast-grep/agent-skill",
@@ -8829,9 +8829,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/github/gh-aw.git",
       "skillPath": ".github/skills/agentic-workflows/SKILL.md",
-      "skillFolderHash": "8a99da16a2ca75547b836563dbd9028dfc17809d",
+      "skillFolderHash": "8aa574aea43f5dc316669c0f1d197801e8d63146",
       "installedAt": "2026-08-17T03:21:27.911Z",
-      "updatedAt": "2026-10-12T15:20:03.145Z"
+      "updatedAt": "2026-10-13T14:09:48.894Z"
     },
     "reverse-skill-router": {
       "source": "zhaoxuya520/reverse-skill",

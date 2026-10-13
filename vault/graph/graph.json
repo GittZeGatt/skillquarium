@@ -12635,7 +12635,7 @@
    "id": "grade-tests",
    "type": "Skill",
    "label": "grade-tests",
-   "description": "> Grade a curated list of individual tests for readiness, A-F quality, and concrete improvements. Use FOR: grade tests, review only a named test, per-test readiness decisions, or quality bands for supplied methods, bodies, file spans, or bounded PR diffs, including existing tests. Produce a PR-ready Pass, Failed, Uncertain, or Not applicable table; unresolved or empty scopes omit the grade. Compose read-only per-test mutation evidence when available. Polyglot: .NET, Python, TS/JS, Java, Go, Ruby, Rust, Swift, Kotlin, PowerShell, C++. DO NOT USE FOR: suite-wide audits (test-engineer or test-anti-patterns), writing or fixing tests, or measuring coverage.",
+   "description": "> Grade curated individual tests for readiness, A-F quality and improvements. Use FOR: grade tests, review only a named test, per-test readiness or quality bands for supplied methods, bodies, file spans or bounded PR diffs, including existing tests. Return Pass/Failed/Uncertain/Not applicable; unresolved/empty scopes omit grades. Compose read-only per-test evidence. Polyglot. DO NOT USE FOR: suite audits (test-engineer/test-anti-patterns), concrete fix/feature detection proof (test-value-evidence), writing/fixing tests, or coverage.",
    "source": "skills/grade-tests/SKILL.md",
    "aliases": [
     "grade tests"
@@ -28858,7 +28858,7 @@
    "id": "test-gap-analysis",
    "type": "Skill",
    "label": "test-gap-analysis",
-   "description": ">- Pseudo-mutation analysis ONLY: answer whether tests would catch a bug if production code changed, which meaningful changes would still pass, or which caller-visible mutations existing assertions would miss; verify candidates when requested, then optionally close verified gaps. Includes explicit read-only per-test composition for grading. Activate for behavioral blind spots tied to production behavior. Polyglot. DO NOT USE FOR: suite taxonomy, metadata, or distribution reports (test-tagging); .NET line-vs-branch or Cobertura interpretation, arithmetic, plateaus, project-wide coverage gaps, or coverage-backed test/CRAP priorities (coverage-analysis; use native coverage tooling outside .NET); named-target CRAP (crap-score); new suites (code-testing); assertion/smell audits; or mutation tools.",
+   "description": ">- Find caller-visible production changes existing tests would miss through pseudo-mutation analysis; verify candidates or close gaps only when requested. Includes read-only per-test composition for grading. Polyglot. USE FOR: would tests catch a bug, behavioral blind spots, surviving mutations. DO NOT USE FOR: concrete fix/feature revision proof (test-value-evidence); suite taxonomy (test-tagging); .NET coverage, Cobertura, plateaus or coverage-backed priorities (coverage-analysis); named CRAP (crap-score); new suites (code-testing); assertion/smell audits; mutation tools.",
    "source": "skills/test-gap-analysis/SKILL.md",
    "aliases": [
     "test gap analysis"
@@ -31398,7 +31398,7 @@
    "id": "wandb-primary",
    "type": "Skill",
    "label": "wandb-primary",
-   "description": "Primary W&B skill for broad or mixed Weights & Biases work: project overviews, W&B runs and artifacts, Weave traces and evaluations, Reports, and Launch workflows. Use when the task spans multiple W&B surfaces or the user asks generally what is happening in a W&B project.",
+   "description": "Primary W&B skill for broad or mixed Weights & Biases work: project overviews, W&B runs and artifacts, Weave traces and evaluations, Reports, Workspaces, Automations, Sweeps, Launch, and Agent Lens. Use when the task spans multiple W&B surfaces or the user asks generally what is happening in a W&B project.",
    "source": "skills/wandb-primary/SKILL.md",
    "aliases": [
     "wandb primary"
