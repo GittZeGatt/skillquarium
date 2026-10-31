@@ -4,11 +4,11 @@
   "skills": 2148,
   "expert_profiles": 503,
   "nodes": 2221,
-  "edges": 15720,
+  "edges": 15718,
   "generic_names_blocked": 32,
-  "tier1_edges": 4686,
+  "tier1_edges": 4685,
   "tier2_edges": 722,
-  "alias_edges": 4462,
+  "alias_edges": 4461,
   "discipline_edges": 599,
   "ambiguous_aliases": 34,
   "artifact_edges": 520,
@@ -20,13 +20,13 @@
   "orphan_count": 124,
   "orphan_rate": 0.0577,
   "by_provenance": {
-   "EXTRACTED": 14934,
+   "EXTRACTED": 14932,
    "ASSERTED": 668,
    "INFERRED": 118
   },
   "by_relation": {
    "in_domain": 2148,
-   "references": 12266,
+   "references": 12264,
    "in_discipline": 599,
    "touches": 520,
    "has_step": 69,
@@ -57916,15 +57916,6 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "core referenced in code/link context in temporal-developer/SKILL.md",
-   "status": "accepted"
-  },
-  {
-   "src": "core",
-   "rel": "references",
-   "dst": "vercel-sandbox",
-   "weight": 1,
-   "provenance": "EXTRACTED",
-   "justification": "vercel-sandbox named in core/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -168364,15 +168355,6 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "browser-automation named in vercel-sandbox/SKILL.md body",
-   "status": "accepted"
-  },
-  {
-   "src": "vercel-sandbox",
-   "rel": "references",
-   "dst": "core",
-   "weight": 1,
-   "provenance": "EXTRACTED",
-   "justification": "vercel-sandbox named in core/SKILL.md body",
    "status": "accepted"
   },
   {
