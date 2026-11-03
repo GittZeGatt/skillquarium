@@ -4,11 +4,11 @@
   "skills": 2148,
   "expert_profiles": 503,
   "nodes": 2221,
-  "edges": 15718,
+  "edges": 15722,
   "generic_names_blocked": 32,
-  "tier1_edges": 4685,
-  "tier2_edges": 722,
-  "alias_edges": 4461,
+  "tier1_edges": 4688,
+  "tier2_edges": 720,
+  "alias_edges": 4464,
   "discipline_edges": 599,
   "ambiguous_aliases": 34,
   "artifact_edges": 520,
@@ -20,13 +20,13 @@
   "orphan_count": 124,
   "orphan_rate": 0.0577,
   "by_provenance": {
-   "EXTRACTED": 14932,
+   "EXTRACTED": 14936,
    "ASSERTED": 668,
    "INFERRED": 118
   },
   "by_relation": {
    "in_domain": 2148,
-   "references": 12264,
+   "references": 12268,
    "in_discipline": 599,
    "touches": 520,
    "has_step": 69,
@@ -7323,7 +7323,7 @@
    "id": "databricks-vector-search",
    "type": "Skill",
    "label": "databricks-vector-search",
-   "description": "Databricks AI Search (formerly Vector Search) endpoints and indexes for RAG and semantic search; covers index types, search modes, filtering, end-to-end RAG patterns",
+   "description": "Databricks AI Search (formerly Vector Search) endpoints and indexes for RAG and semantic search. Use when asked to: create Standard or Storage-Optimized endpoints and Delta Sync or Direct Access indexes with AISearchClient; query with ANN, hybrid, or full-text search and filters; sync, monitor, or migrate indexes; set a target QPS, triage 429s, or load-test an endpoint; wire an index into an agent as a retriever tool. NOT for: no-code document Q&A (databricks-genie-agents); serving-endpoint CRUD (databricks-model-serving); custom ResponsesAgent authoring and deployment (databricks-ml-training).",
    "source": "skills/databricks-vector-search/SKILL.md",
    "aliases": [
     "databricks vector search"
@@ -8400,7 +8400,7 @@
    "id": "docker-sandboxes-kits",
    "type": "Skill",
    "label": "docker-sandboxes-kits",
-   "description": ">- Use this skill when authoring, validating, packaging, signing, or composing a Docker Sandboxes kit `spec.yaml` (`sbx kit add/inspect/pack/pull/push/sign/validate/verify`), even if the user just says they want to \"add a tool to a sandbox agent\", \"build a reusable sandbox extension\", \"publish a kit to a registry\", or \"give a mixin its own credentials and network access\". Covers the kit-spec v2 grammar (`kind: sandbox` vs `kind: mixin`, the `sandbox:` block, `permissions.network`, `ports`, `credentials` apiKey/oauth, `environment`, `setup` install/startup/files, `volumes`, `args`, `extends`, `mixins`, `requires.agent`), composition via `--kit`/`sbx kit add`, and distribution (pack/push/pull/sign/verify/provenance).",
+   "description": ">- Use this skill when authoring, verifying, publishing, or composing a Docker Sandboxes kit, even if the user just says they want to \"add a tool to a sandbox agent\", \"package a CLI or agent as a kit\", \"publish a kit to a registry\", or \"give a mixin its own credentials and network access\". Covers the v3 kit descriptor (`# syntax=docker/sandbox-kit:3`, `kind: workload` or `mixin`, typed capabilities, provides/requires, content recipes), building with docker buildx, checking with kit-tck and `sbx kit inspect`, composing onto a workload, and publishing and signing. Legacy v2 `spec.yaml` kits are not covered; `sbx kit validate` is not a substitute for kit-tck conformance and runtime checks.",
    "source": "skills/docker-sandboxes-kits/SKILL.md",
    "aliases": [
     "docker sandboxes kits"
@@ -18700,7 +18700,7 @@
    "id": "neo4j-agent-memory-skill",
    "type": "Skill",
    "label": "neo4j-agent-memory-skill",
-   "description": "Authoritative reference for the neo4j-agent-memory Python package — a graph-native memory system for AI agents built on Neo4j — and for the hosted service (NAMS) at memory.neo4jlabs.com. Use this skill whenever the user mentions neo4j-agent-memory, agent memory with Neo4j, context graphs, the POLE+O model, MemoryClient/MemorySettings, the memory MCP server, or any of the framework integrations (LangChain, PydanticAI, CrewAI, AWS Strands, Google ADK, Microsoft Agent Framework, OpenAI Agents, LlamaIndex). Also use when the user mentions the hosted service at memory.neo4jlabs.com, NAMS, the Neo4j Agent Memory Service, the `nams_` API key prefix, or the hosted MCP endpoint. Also use when writing documentation, blog posts, tutorials, PRDs, or code samples for the project, when comparing agent memory approaches, or when positioning graph-native memory against vector-only approaches — even if the user doesn't explicitly name the package.",
+   "description": "Authoritative reference for the neo4j-agent-memory Python package — a graph-native memory system for AI agents built on Neo4j — and for the hosted service (NAMS) at memory.neo4jlabs.com. Use this skill whenever the user mentions neo4j-agent-memory, agent memory with Neo4j, context graphs, the POLE+O model, MemoryClient/MemorySettings, the memory MCP server, or any of the framework integrations (LangChain, PydanticAI, CrewAI, AWS Strands, Google ADK, Microsoft Agent Framework, OpenAI Agents, LlamaIndex). Also use when the user mentions the hosted service at memory.neo4jlabs.com, NAMS, the Neo4j Agent Memory Service, the `nams_` API key prefix, or the hosted MCP endpoint. Also use when writing documentation, blog posts, tutorials, PRDs, or code samples for the project, when comparing agent memory approaches, or when positioning graph-native memory against vector-only approaches — even if the user doesn't explicitly name the package. Does NOT handle GraphRAG pipelines — use neo4j-graphrag-skill.",
    "source": "skills/neo4j-agent-memory-skill/SKILL.md",
    "aliases": [
     "nams",
@@ -45762,15 +45762,6 @@
   {
    "src": "browser-automation",
    "rel": "references",
-   "dst": "core",
-   "weight": 1,
-   "provenance": "EXTRACTED",
-   "justification": "browser-automation named in core/SKILL.md body",
-   "status": "accepted"
-  },
-  {
-   "src": "browser-automation",
-   "rel": "references",
    "dst": "core-actionbook",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -57858,15 +57849,6 @@
   {
    "src": "core",
    "rel": "references",
-   "dst": "browser-automation",
-   "weight": 1,
-   "provenance": "EXTRACTED",
-   "justification": "browser-automation named in core/SKILL.md body",
-   "status": "accepted"
-  },
-  {
-   "src": "core",
-   "rel": "references",
    "dst": "construction-engineer",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -61305,6 +61287,15 @@
   {
    "src": "databricks-genie-agents",
    "rel": "references",
+   "dst": "databricks-vector-search",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "databricks-genie-agents named in databricks-vector-search/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "databricks-genie-agents",
+   "rel": "references",
    "dst": "google-drive",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -61620,6 +61611,15 @@
   {
    "src": "databricks-ml-training",
    "rel": "references",
+   "dst": "databricks-vector-search",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "databricks-ml-training named in databricks-vector-search/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "databricks-ml-training",
+   "rel": "references",
    "dst": "langgraph",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -61777,6 +61777,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "databricks-mlflow-evaluation named in databricks-model-serving/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "databricks-model-serving",
+   "rel": "references",
+   "dst": "databricks-vector-search",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "databricks-model-serving named in databricks-vector-search/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -62043,10 +62052,46 @@
   {
    "src": "databricks-vector-search",
    "rel": "references",
-   "dst": "filter-syntax",
+   "dst": "databricks-genie-agents",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "filter-syntax named in databricks-vector-search/SKILL.md body",
+   "justification": "databricks-genie-agents named in databricks-vector-search/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "databricks-vector-search",
+   "rel": "references",
+   "dst": "databricks-ml-training",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "databricks-ml-training named in databricks-vector-search/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "databricks-vector-search",
+   "rel": "references",
+   "dst": "databricks-model-serving",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "databricks-model-serving named in databricks-vector-search/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "databricks-vector-search",
+   "rel": "references",
+   "dst": "datasources-provisioning",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "curated alias of datasources-provisioning appears in databricks-vector-search/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "databricks-vector-search",
+   "rel": "references",
+   "dst": "terraform",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "terraform named in databricks-vector-search/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -62236,6 +62281,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "curated alias of datasources-provisioning appears in databricks-docs/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "datasources-provisioning",
+   "rel": "references",
+   "dst": "databricks-vector-search",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "curated alias of datasources-provisioning appears in databricks-vector-search/SKILL.md",
    "status": "accepted"
   },
   {
@@ -66469,6 +66523,15 @@
    "status": "accepted"
   },
   {
+   "src": "docker-build-strategies",
+   "rel": "references",
+   "dst": "docker-sandboxes-kits",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "docker-build-strategies named in docker-sandboxes-kits/SKILL.md body",
+   "status": "accepted"
+  },
+  {
    "src": "docker-compose-patterns",
    "rel": "in_domain",
    "dst": "domain:cloud-devops",
@@ -66687,6 +66750,15 @@
   {
    "src": "docker-sandboxes-kits",
    "rel": "references",
+   "dst": "docker-build-strategies",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "docker-build-strategies named in docker-sandboxes-kits/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "docker-sandboxes-kits",
+   "rel": "references",
    "dst": "docker-sandboxes-env",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -66709,24 +66781,6 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "docker-sandboxes-network-credentials named in docker-sandboxes-kits/SKILL.md body",
-   "status": "accepted"
-  },
-  {
-   "src": "docker-sandboxes-kits",
-   "rel": "references",
-   "dst": "github",
-   "weight": 1,
-   "provenance": "EXTRACTED",
-   "justification": "github referenced in code/link context in docker-sandboxes-kits/SKILL.md",
-   "status": "accepted"
-  },
-  {
-   "src": "docker-sandboxes-kits",
-   "rel": "references",
-   "dst": "setup",
-   "weight": 1,
-   "provenance": "EXTRACTED",
-   "justification": "setup referenced in code/link context in docker-sandboxes-kits/SKILL.md",
    "status": "accepted"
   },
   {
@@ -73711,15 +73765,6 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "filter-syntax named in cellxgene-census/SKILL.md body",
-   "status": "accepted"
-  },
-  {
-   "src": "filter-syntax",
-   "rel": "references",
-   "dst": "databricks-vector-search",
-   "weight": 1,
-   "provenance": "EXTRACTED",
-   "justification": "filter-syntax named in databricks-vector-search/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -80857,15 +80902,6 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "github referenced in code/link context in docker-agent-run/SKILL.md",
-   "status": "accepted"
-  },
-  {
-   "src": "github",
-   "rel": "references",
-   "dst": "docker-sandboxes-kits",
-   "weight": 1,
-   "provenance": "EXTRACTED",
-   "justification": "github referenced in code/link context in docker-sandboxes-kits/SKILL.md",
    "status": "accepted"
   },
   {
@@ -148902,15 +148938,6 @@
   {
    "src": "setup",
    "rel": "references",
-   "dst": "docker-sandboxes-kits",
-   "weight": 1,
-   "provenance": "EXTRACTED",
-   "justification": "setup referenced in code/link context in docker-sandboxes-kits/SKILL.md",
-   "status": "accepted"
-  },
-  {
-   "src": "setup",
-   "rel": "references",
    "dst": "exp-mock-usage-analysis",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -158077,6 +158104,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "terraform named in databricks-docs/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "terraform",
+   "rel": "references",
+   "dst": "databricks-vector-search",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "terraform named in databricks-vector-search/SKILL.md body",
    "status": "accepted"
   },
   {
