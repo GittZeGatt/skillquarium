@@ -4,29 +4,29 @@
   "skills": 2148,
   "expert_profiles": 503,
   "nodes": 2221,
-  "edges": 15722,
+  "edges": 15734,
   "generic_names_blocked": 32,
-  "tier1_edges": 4688,
-  "tier2_edges": 720,
-  "alias_edges": 4464,
+  "tier1_edges": 4692,
+  "tier2_edges": 721,
+  "alias_edges": 4466,
   "discipline_edges": 599,
   "ambiguous_aliases": 34,
   "artifact_edges": 520,
   "asserted_edges": 0,
   "recipes": 7,
   "observations": 0,
-  "mean_skill_degree": 5.74,
+  "mean_skill_degree": 5.75,
   "median_skill_degree": 4,
   "orphan_count": 124,
   "orphan_rate": 0.0577,
   "by_provenance": {
-   "EXTRACTED": 14936,
+   "EXTRACTED": 14948,
    "ASSERTED": 668,
    "INFERRED": 118
   },
   "by_relation": {
    "in_domain": 2148,
-   "references": 12268,
+   "references": 12280,
    "in_discipline": 599,
    "touches": 520,
    "has_step": 69,
@@ -20661,7 +20661,7 @@
    "id": "openai-platform-api-key",
    "type": "Skill",
    "label": "openai-platform-api-key",
-   "description": "Use when Codex is asked to build, run, test, debug, or configure an OpenAI-backed or provider-unspecified AI app, UI, script, CLI, generator, or tool, especially requests phrased only as \"using AI\" or generators driven by forms/user input; also use for OPENAI_API_KEY or sk-proj setup. Treat this as the credential gate: inspect safely, ask reuse-vs-new before API work, and never expose plaintext.",
+   "description": "Use when Codex is asked to build, run, test, debug, or configure an OpenAI-backed or provider-unspecified AI app, UI, script, CLI, generator, or tool, especially requests phrased only as \"using AI\" or generators driven by forms/user input; also use for OPENAI_API_KEY or sk-proj setup. Do not gate model or prompt migrations that can proceed with source edits and offline validation. Otherwise treat this as the credential gate: inspect safely, ask reuse-vs-new before API work, and never expose plaintext.",
    "source": "skills/openai-platform-api-key/SKILL.md",
    "aliases": [
     "openai platform api key"
@@ -34188,6 +34188,15 @@
   {
    "src": "agentcore",
    "rel": "references",
+   "dst": "core",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "agentcore named in core/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "agentcore",
+   "rel": "references",
    "dst": "twilio-agent-connect",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -35218,6 +35227,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "curated alias of alerting-irm appears in computer-hardware-engineer/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "alerting-irm",
+   "rel": "references",
+   "dst": "core",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "curated alias of alerting-irm appears in core/SKILL.md",
    "status": "accepted"
   },
   {
@@ -57849,6 +57867,24 @@
   {
    "src": "core",
    "rel": "references",
+   "dst": "agentcore",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "agentcore named in core/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "core",
+   "rel": "references",
+   "dst": "alerting-irm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "curated alias of alerting-irm appears in core/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "core",
+   "rel": "references",
    "dst": "construction-engineer",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -57862,6 +57898,24 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "core-agent-browser named in core/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "core",
+   "rel": "references",
+   "dst": "dogfood",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "dogfood named in core/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "core",
+   "rel": "references",
+   "dst": "electron",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "electron referenced in code/link context in core/SKILL.md",
    "status": "accepted"
   },
   {
@@ -57885,6 +57939,15 @@
   {
    "src": "core",
    "rel": "references",
+   "dst": "slack",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "slack named in core/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "core",
+   "rel": "references",
    "dst": "telecommunications-engineer",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -57898,6 +57961,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "core referenced in code/link context in temporal-developer/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "core",
+   "rel": "references",
+   "dst": "vercel-sandbox",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "vercel-sandbox named in core/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -67344,6 +67416,15 @@
   {
    "src": "dogfood",
    "rel": "references",
+   "dst": "core",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "dogfood named in core/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "dogfood",
+   "rel": "references",
    "dst": "email",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -69751,6 +69832,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "curated alias of alerting-irm appears in electron/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "electron",
+   "rel": "references",
+   "dst": "core",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "electron referenced in code/link context in core/SKILL.md",
    "status": "accepted"
   },
   {
@@ -151440,6 +151530,15 @@
   {
    "src": "slack",
    "rel": "references",
+   "dst": "core",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "slack named in core/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "slack",
+   "rel": "references",
    "dst": "databricks-genie-agents",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -168391,6 +168490,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "browser-automation named in vercel-sandbox/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "vercel-sandbox",
+   "rel": "references",
+   "dst": "core",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "vercel-sandbox named in core/SKILL.md body",
    "status": "accepted"
   },
   {
