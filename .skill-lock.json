@@ -8828,9 +8828,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/github/gh-aw.git",
       "skillPath": ".github/skills/agentic-workflows/SKILL.md",
-      "skillFolderHash": "42decaaf601c4db8d105896a71f5e595fa7147ed",
+      "skillFolderHash": "e8cd19ee08d5907c79de65fce063737e7cc5ed64",
       "installedAt": "2026-08-17T03:21:27.911Z",
-      "updatedAt": "2026-11-08T13:30:52.855Z"
+      "updatedAt": "2026-11-09T16:28:44.182Z"
     },
     "reverse-skill-router": {
       "source": "zhaoxuya520/reverse-skill",
@@ -9591,9 +9591,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/prisma/skills.git",
       "skillPath": "prisma-compute/SKILL.md",
-      "skillFolderHash": "2ce94d770374d3d6eecaa9daf3d05de4764e53a6",
+      "skillFolderHash": "1685137da79771ddbdd81fc53a20e9c456c31988",
       "installedAt": "2026-08-23T17:16:28.743Z",
-      "updatedAt": "2026-10-16T11:31:16.174Z"
+      "updatedAt": "2026-11-09T16:28:46.281Z"
     },
     "prisma-database-setup": {
       "source": "prisma/skills",
@@ -11416,18 +11416,18 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/vercel/next.js.git",
       "skillPath": "skills/next-cache-components-optimizer/SKILL.md",
-      "skillFolderHash": "0e3c10cb22aab25eff9023ea10312a2dcf7ef87b",
+      "skillFolderHash": "faad4b57c94f652be24ad5606f3a854879c19a4c",
       "installedAt": "2026-08-23T17:24:26.730Z",
-      "updatedAt": "2026-11-05T14:44:10.433Z"
+      "updatedAt": "2026-11-09T16:28:53.365Z"
     },
     "next-partial-prefetching-adoption": {
       "source": "vercel/next.js",
       "sourceType": "github",
       "sourceUrl": "https://github.com/vercel/next.js.git",
       "skillPath": "skills/next-partial-prefetching-adoption/SKILL.md",
-      "skillFolderHash": "60f8e3bf05706a1382f0fd9455d258a7403533af",
+      "skillFolderHash": "b88c39b9633f6aac247ff2ca095ea9e95e626137",
       "installedAt": "2026-08-23T17:24:38.535Z",
-      "updatedAt": "2026-11-05T14:44:12.423Z"
+      "updatedAt": "2026-11-09T16:28:55.651Z"
     },
     "incident-response": {
       "source": "anthropics/knowledge-work-plugins",
@@ -12066,9 +12066,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/docker/skills.git",
       "skillPath": "skills/docker-sandboxes-lifecycle/SKILL.md",
-      "skillFolderHash": "ac168557da15533afd26044e215d8473a821b3c0",
+      "skillFolderHash": "d148ccc63242835ad6a5f513398fcd4bd7627464",
       "installedAt": "2026-09-25T17:57:41.762Z",
-      "updatedAt": "2026-11-05T14:44:15.518Z"
+      "updatedAt": "2026-11-09T16:28:59.255Z"
     },
     "docker-sandboxes-network-credentials": {
       "source": "docker/skills",
