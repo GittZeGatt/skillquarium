@@ -1275,9 +1275,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/vercel-labs/agent-browser.git",
       "skillPath": "skill-data/core/SKILL.md",
-      "skillFolderHash": "166655a9039320a8460c0d46994a2187e353caa1",
+      "skillFolderHash": "7a38dcb754a13c90da0927b459a442e8afa4638d",
       "installedAt": "2026-06-09T19:25:40.383Z",
-      "updatedAt": "2026-11-20T15:31:41.691Z"
+      "updatedAt": "2026-11-22T14:40:03.118Z"
     },
     "dogfood": {
       "source": "vercel-labs/agent-browser",
@@ -8801,9 +8801,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/max-sixty/worktrunk.git",
       "skillPath": "skills/worktrunk/SKILL.md",
-      "skillFolderHash": "7233b582ad34680415700a2f9e665b9ec7d45895",
+      "skillFolderHash": "ffb4e62daba3f1d43556123a5691632de5d25a22",
       "installedAt": "2026-08-13T09:15:09.693Z",
-      "updatedAt": "2026-11-19T15:50:46.399Z"
+      "updatedAt": "2026-11-22T14:40:22.756Z"
     },
     "ast-grep": {
       "source": "ast-grep/agent-skill",
@@ -8828,9 +8828,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/github/gh-aw.git",
       "skillPath": ".github/skills/agentic-workflows/SKILL.md",
-      "skillFolderHash": "837f3c6b48f64a05dcd536c94017abd3ab4a3f6b",
+      "skillFolderHash": "c29b0d16b4531374652186b4732aae57a5efc3ce",
       "installedAt": "2026-08-17T03:21:27.911Z",
-      "updatedAt": "2026-11-18T15:46:03.278Z"
+      "updatedAt": "2026-11-22T14:40:37.431Z"
     },
     "reverse-skill-router": {
       "source": "zhaoxuya520/reverse-skill",
@@ -9537,9 +9537,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/Imbad0202/academic-research-skills.git",
       "skillPath": "academic-paper/SKILL.md",
-      "skillFolderHash": "4b20fb12d09d59224cccbd07e5f6c1fea79835e0",
+      "skillFolderHash": "eaf4e64a81eda10ae2a5a882bf150771482cfd9f",
       "installedAt": "2026-08-21T01:50:31.544Z",
-      "updatedAt": "2026-11-19T15:50:49.002Z"
+      "updatedAt": "2026-11-22T14:40:41.737Z"
     },
     "academic-paper-reviewer": {
       "source": "Imbad0202/academic-research-skills",
@@ -9564,9 +9564,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/Imbad0202/academic-research-skills.git",
       "skillPath": "deep-research/SKILL.md",
-      "skillFolderHash": "f260f3a562c07eb9b07db505c1a10ec3290c9ed4",
+      "skillFolderHash": "ef5b067b143385004753dc754720eb1dcecd2dc7",
       "installedAt": "2026-08-21T01:50:31.555Z",
-      "updatedAt": "2026-11-20T15:32:00.618Z"
+      "updatedAt": "2026-11-22T14:40:45.355Z"
     },
     "prisma-cli": {
       "source": "prisma/skills",
@@ -10571,9 +10571,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/databricks/databricks-agent-skills.git",
       "skillPath": "skills/databricks-jobs/SKILL.md",
-      "skillFolderHash": "0ebef18a32daf9ee1c76653c8933bdddb97c8766",
+      "skillFolderHash": "d19c4918b44532d831135ce25631b593d9f5394c",
       "installedAt": "2026-08-23T17:20:36.160Z",
-      "updatedAt": "2026-10-24T11:09:09.427Z"
+      "updatedAt": "2026-11-22T14:40:49.735Z"
     },
     "databricks-lakebase": {
       "source": "databricks/databricks-agent-skills",
@@ -10697,9 +10697,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/databricks/databricks-agent-skills.git",
       "skillPath": "skills/databricks-vector-search/SKILL.md",
-      "skillFolderHash": "872f97bfeff41fb059c9e7791d1e4ff94f4eef44",
+      "skillFolderHash": "98b83eb7329c0dbdcd31f7be5c0971dde355ef70",
       "installedAt": "2026-08-23T17:20:36.217Z",
-      "updatedAt": "2026-11-17T16:06:33.445Z"
+      "updatedAt": "2026-11-22T14:40:51.746Z"
     },
     "databricks-zerobus-ingest": {
       "source": "databricks/databricks-agent-skills",
