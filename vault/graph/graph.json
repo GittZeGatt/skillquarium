@@ -8,7 +8,7 @@
   "generic_names_blocked": 32,
   "tier1_edges": 4687,
   "tier2_edges": 725,
-  "alias_edges": 4459,
+  "alias_edges": 4460,
   "discipline_edges": 599,
   "ambiguous_aliases": 34,
   "artifact_edges": 519,
@@ -34188,15 +34188,6 @@
   {
    "src": "agentcore",
    "rel": "references",
-   "dst": "core",
-   "weight": 1,
-   "provenance": "EXTRACTED",
-   "justification": "agentcore named in core/SKILL.md body",
-   "status": "accepted"
-  },
-  {
-   "src": "agentcore",
-   "rel": "references",
    "dst": "twilio-agent-connect",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -46041,6 +46032,15 @@
   {
    "src": "browser-use",
    "rel": "references",
+   "dst": "core",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "browser-use named in core/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "browser-use",
+   "rel": "references",
    "dst": "logfire-ui",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -57867,19 +57867,19 @@
   {
    "src": "core",
    "rel": "references",
-   "dst": "agentcore",
+   "dst": "alerting-irm",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "agentcore named in core/SKILL.md body",
+   "justification": "curated alias of alerting-irm appears in core/SKILL.md",
    "status": "accepted"
   },
   {
    "src": "core",
    "rel": "references",
-   "dst": "alerting-irm",
+   "dst": "browser-use",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "curated alias of alerting-irm appears in core/SKILL.md",
+   "justification": "browser-use named in core/SKILL.md body",
    "status": "accepted"
   },
   {
