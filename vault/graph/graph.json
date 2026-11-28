@@ -4,11 +4,11 @@
   "skills": 2148,
   "expert_profiles": 503,
   "nodes": 2221,
-  "edges": 15743,
+  "edges": 15745,
   "generic_names_blocked": 32,
-  "tier1_edges": 4685,
+  "tier1_edges": 4687,
   "tier2_edges": 725,
-  "alias_edges": 4459,
+  "alias_edges": 4461,
   "discipline_edges": 599,
   "ambiguous_aliases": 34,
   "artifact_edges": 519,
@@ -20,13 +20,13 @@
   "orphan_count": 122,
   "orphan_rate": 0.0568,
   "by_provenance": {
-   "EXTRACTED": 14957,
+   "EXTRACTED": 14959,
    "ASSERTED": 668,
    "INFERRED": 118
   },
   "by_relation": {
    "in_domain": 2148,
-   "references": 12290,
+   "references": 12292,
    "in_discipline": 599,
    "touches": 519,
    "has_step": 69,
@@ -7006,7 +7006,7 @@
    "id": "databricks-dabs",
    "type": "Skill",
    "label": "databricks-dabs",
-   "description": "Create, configure, validate, deploy, run, and manage Declarative Automation Bundles (DABs, formerly Databricks Asset Bundles). Use when working with Databricks resources via DABs including dashboards, jobs, pipelines, alerts, volumes, and apps.",
+   "description": "Create, configure, validate, deploy, run, and manage Declarative Automation Bundles (DABs, formerly Databricks Asset Bundles). Use when working with Databricks resources via DABs including dashboards, jobs, pipelines, alerts, volumes, and apps. Use whenever you read or edit a databricks.yml, or fix bundle validate or deploy errors (for example resource name conflicts between users in a shared workspace).",
    "source": "skills/databricks-dabs/SKILL.md",
    "aliases": [
     "dabs",
@@ -18761,7 +18761,7 @@
    "id": "neo4j-cli-tools-skill",
    "type": "Skill",
    "label": "neo4j-cli-tools-skill",
-   "description": "Use when working with Neo4j command-line tools — neo4j-cli (modern unified CLI — Cypher via Bolt, schema inspection, Aura management, Docker containers, credential management, agent skill catalog install; install with curl -sSfL https://neo4j.sh/install.sh | bash), neo4j-admin (backup, restore, import, memory sizing), cypher-shell (ad-hoc queries, scripting, CI/CD), or neo4j-mcp (quick MCP server install). Does NOT cover Cypher query authoring — use neo4j-cypher-skill. Does NOT cover driver upgrades — use neo4j-migration-skill. Does NOT cover full MCP editor configuration — use neo4j-mcp-skill.",
+   "description": "Use when working with Neo4j command-line tools — neo4j-cli (modern unified CLI — Cypher via Bolt, schema inspection, Aura management, Docker containers, credential management, agent skill catalog install; install with curl -sSfL https://neo4j.sh/install.sh | bash), neo4j-admin (backup, restore, import, memory sizing), cypher-shell (ad-hoc queries, scripting, CI/CD), or neo4j-mcp (quick MCP server install). Does NOT cover Cypher query authoring — use neo4j-cypher-skill. Does NOT cover driver upgrades — use neo4j-migration-skill. Does NOT cover full MCP editor configuration — use neo4j-mcp-skill. Does NOT cover the relate embedded engine (relatedb.ai) — use the relate skill; choice guide in neo4j-getting-started-skill.",
    "source": "skills/neo4j-cli-tools-skill/SKILL.md",
    "aliases": [
     "neo4j cli tools skill"
@@ -18776,7 +18776,7 @@
    "id": "neo4j-cypher-skill",
    "type": "Skill",
    "label": "neo4j-cypher-skill",
-   "description": "Generates, optimizes, and validates Cypher 25 queries for Neo4j 2025.x and 2026.x. Use when writing new Cypher queries, optimizing slow queries, graph pattern matching, vector or fulltext search, subqueries, or batch writes. Covers MATCH, MERGE, CREATE, WITH, RETURN, CALL, UNWIND, FOREACH, LOAD CSV, SEARCH, expressions, functions, indexes, and subqueries. Does NOT handle driver migration or API changes — use neo4j-migration-skill. Does NOT cover DB administration or server ops — use neo4j-cli-tools-skill.",
+   "description": "Generates, optimizes, and validates Cypher 25 queries for Neo4j 2025.x and 2026.x. Use when writing new Cypher queries, optimizing slow queries, graph pattern matching, vector or fulltext search, subqueries, or batch writes. Covers MATCH, MERGE, CREATE, WITH, RETURN, CALL, UNWIND, FOREACH, LOAD CSV, SEARCH, expressions, functions, indexes, and subqueries. Does NOT handle driver migration or API changes — use neo4j-migration-skill. Does NOT cover DB administration or server ops — use neo4j-cli-tools-skill. Does NOT cover Cypher on the relate embedded engine — use the relate skill.",
    "source": "skills/neo4j-cypher-skill/SKILL.md",
    "aliases": [
     "neo4j cypher skill"
@@ -107322,6 +107322,15 @@
   {
    "src": "neo4j-agent-memory-skill",
    "rel": "references",
+   "dst": "neo4j-getting-started-skill",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "neo4j-getting-started-skill named in neo4j-agent-memory-skill/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "neo4j-agent-memory-skill",
+   "rel": "references",
    "dst": "neo4j-graphrag-skill",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -107793,7 +107802,7 @@
    "dst": "neo4j-getting-started-skill",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "neo4j-cypher-skill named in neo4j-getting-started-skill/SKILL.md body",
+   "justification": "neo4j-getting-started-skill named in neo4j-cypher-skill/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -108447,6 +108456,15 @@
   {
    "src": "neo4j-getting-started-skill",
    "rel": "references",
+   "dst": "neo4j-agent-memory-skill",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "neo4j-getting-started-skill named in neo4j-agent-memory-skill/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "neo4j-getting-started-skill",
+   "rel": "references",
    "dst": "neo4j-cli-tools-skill",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -108459,7 +108477,7 @@
    "dst": "neo4j-cypher-skill",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "neo4j-cypher-skill named in neo4j-getting-started-skill/SKILL.md body",
+   "justification": "neo4j-getting-started-skill named in neo4j-cypher-skill/SKILL.md body",
    "status": "accepted"
   },
   {
